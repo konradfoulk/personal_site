@@ -16,7 +16,7 @@ a {
 }
 
 #root {
-    margin: 64vh auto;
+    margin: 64vh auto 40px;
     max-width: 800px;
     padding: 0 24px;
 }
@@ -40,8 +40,7 @@ a {
 }
 
 #header {
-    justify-self: center;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -100%);
