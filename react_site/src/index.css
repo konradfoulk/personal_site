@@ -17,6 +17,7 @@ body {
 
 a {
     text-decoration: none;
+    text-wrap: nowrap;
 }
 
 #root {
@@ -57,6 +58,21 @@ a {
 
 #header a:hover {
     color: hsl(0, 0%, 77%);
+}
+
+#nav {
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav.visible {
+    opacity: 1;
 }
 
 #content {

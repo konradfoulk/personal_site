@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import TagBtn from './components/TagBtn.jsx'
 import Header from './components/Header.jsx'
+import Nav from './components/Nav.jsx'
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -17,6 +18,7 @@ function App() {
     <>
       <TagBtn />
       <Header />
+      <Nav className={visible ? 'visible' : ''} />
       <div id='content' className={visible ? 'visible' : ''}>
         <p>aaaaaa</p>
         <p>aaaaaa</p>

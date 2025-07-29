@@ -1,7 +1,7 @@
-function Nav() {
+function Nav({ className = '' }) {
 
     return (
-        <div id="nav">
+        <div id="nav" className={className}>
             <a href="#header">Konrad Foulk</a>
             <a href="#projects">Projects</a>
             <a href="#about">About</a>
@@ -9,3 +9,5 @@ function Nav() {
         </div>
     );
 }
+
+export default Nav
