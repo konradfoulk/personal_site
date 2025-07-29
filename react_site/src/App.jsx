@@ -20,6 +20,7 @@ function App() {
       <Header />
       <Nav className={visible ? 'visible' : ''} />
       <div id='content' className={visible ? 'visible' : ''}>
+        <p>top</p>
         <p>aaaaaa</p>
         <p>aaaaaa</p>
         <p>aaaaaa</p>
@@ -56,6 +57,8 @@ function App() {
         <p>aaaaaa</p>
         <p>aaaaaa</p>
         <p>aaaaaa</p>
+        <p>aaaaaa</p>
+        <p>bottom</p>
       </div>
     </>
   )
