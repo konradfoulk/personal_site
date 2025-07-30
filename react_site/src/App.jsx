@@ -23,7 +23,6 @@ function App() {
       <Nav className={visible ? 'visible' : ''} />
       <div id='content' className={visible ? 'visible' : ''}>
         <Projects />
-        <br />
         <About />
       </div>
     </>
