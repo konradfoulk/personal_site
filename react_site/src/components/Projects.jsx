@@ -2,20 +2,27 @@ function Projects() {
 
     return (
         <div id="projects">
-            <h3>Projects</h3>
-            <hr /><br />
-            <strong>Notes App</strong>
-            <p>Rich text editor clone of iCloud Notes and Notion</p>
-            <br />
-            <strong>Job Finder</strong>
-            <p>Query APIs to output a list of job postings to a CSV</p>
-            <br />
-            <strong>Tax Calculator</strong>
-            <p>Find the income required to take home an inputted desired income after tax</p>
-            <br />
-            <strong>Portfolio Site</strong>
-            <p>Let's see Paul Allen's card</p>
-            <br />
+            <p className="colored">Projects</p>
+            <div className="project">
+                <a href="#" className="project-link">Notes App</a>
+                <div className="preview"></div>
+                <p className="project-description">Rich text editor clone of iCloud Notes and Notion</p>
+            </div>
+            <div className="project">
+                <a href="#" className="project-link">Job Finder</a>
+                <div className="preview"></div>
+                <p className="project-description">Query APIs to output a list of job postings to a CSV</p>
+            </div>
+            <div className="project">
+                <a href="#" className="project-link">Tax Calculator</a>
+                <div className="preview"></div>
+                <p className="project-description">Find the income required to take home an inputted desired income after tax</p>
+            </div>
+            <div className="project">
+                <a href="#" className="project-link">Portfolio Site</a>
+                <div className="preview"></div>
+                <p className="project-description">Let's see Paul Allen's card</p>
+            </div>
         </div>
     );
 };

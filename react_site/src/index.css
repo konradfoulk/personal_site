@@ -53,11 +53,11 @@ a {
 
 #header a {
     margin-right: 8px;
-    color: hsl(0, 0%, 70%);
+    color: hsl(0, 0%, 50%);
 }
 
 #header a:hover {
-    color: hsl(0, 0%, 77%);
+    color: hsl(0, 0%, 55%);
 }
 
 #nav {
@@ -79,7 +79,7 @@ a {
     background-color: transparent;
     font-size: 16px;
     max-width: fit-content;
-    margin: 8px 0;
+    padding: 8px 0;
     cursor: pointer;
 }
 
@@ -95,6 +95,14 @@ a {
     pointer-events: all;
 }
 
+#nav:hover * {
+    color: hsl(0, 0%, 50%);
+}
+
+#nav button:hover {
+    color: #ffffff;
+}
+
 #content {
     opacity: 0;
     transition: all 0.4s;
@@ -102,4 +110,46 @@ a {
 
 #content.visible {
     opacity: 1;
+}
+
+#content * {
+    line-height: 1.75;
+}
+
+.project {
+    position: relative;
+}
+
+.project-link {
+    text-decoration-line: underline;
+    text-decoration-color: hsl(0, 0%, 50%);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2.5px;
+    text-decoration-skip-ink: none;
+}
+
+.project-link:hover {
+    text-decoration-color: white;
+}
+
+.preview {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 64%;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.project-link:hover+.preview {
+    display: block;
+}
+
+.project-description {
+    color: hsl(0, 0%, 50%);
+}
+
+.colored {
+    color: hsl(0, 0%, 50%);
 }
