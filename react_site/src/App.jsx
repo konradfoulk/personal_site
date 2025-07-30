@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import TagBtn from './components/TagBtn.jsx'
 import Header from './components/Header.jsx'
 import Nav from './components/Nav.jsx'
+import Projects from './components/Projects.jsx'
+import About from './components/About.jsx'
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -20,45 +22,9 @@ function App() {
       <Header />
       <Nav className={visible ? 'visible' : ''} />
       <div id='content' className={visible ? 'visible' : ''}>
-        <p>top</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>aaaaaa</p>
-        <p>bottom</p>
+        <Projects />
+        <br />
+        <About />
       </div>
     </>
   )
