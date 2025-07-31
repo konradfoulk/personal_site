@@ -1,9 +1,11 @@
+import './Skills.css'
+
 function Skills() {
 
     return (
-        <div id="skills">
-            <p className="header"> Skills</p>
-            <p className="content">
+        <section id="skills">
+            <p className="heading"> Skills</p>
+            <p className="text-element">
                 I'm interested in
             </p>
             <div id="marquee">
@@ -42,7 +44,7 @@ function Skills() {
                     <span>CSS</span>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

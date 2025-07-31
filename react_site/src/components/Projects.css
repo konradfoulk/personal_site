@@ -1,0 +1,38 @@
+.project {
+    position: relative;
+}
+
+.wrapper {
+    max-width: 40%;
+}
+
+.link {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(80, 80, 80);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2.5px;
+    text-decoration-skip-ink: none;
+}
+
+.link:hover {
+    text-decoration-color: rgb(160, 160, 160);
+}
+
+.description {
+    color: rgb(160, 160, 160);
+}
+
+.preview {
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 70%;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.wrapper:hover+.preview {
+    display: block;
+}

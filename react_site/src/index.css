@@ -14,12 +14,22 @@ html {
 
 body {
     background-color: rgb(26, 26, 26);
-    /* padding: 16px 24px 40px; */
-    /* padding-bottom: 40px; */
 }
 
 a {
     text-decoration: none;
+}
+
+section {
+    margin: 64px 0;
+}
+
+.element {
+    margin: 24px 0;
+}
+
+.text-element {
+    margin: 28px 0;
 }
 
 #root {
@@ -117,91 +127,7 @@ a {
     line-height: 1.75;
 }
 
-.project {
-    position: relative;
-    margin-top: 24px;
-}
-
-.project-link {
-    text-decoration-line: underline;
-    text-decoration-color: rgb(80, 80, 80);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2.5px;
-    text-decoration-skip-ink: none;
-}
-
-.project-link:hover {
-    text-decoration-color: rgb(160, 160, 160);
-}
-
-.preview {
-    display: none;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 70%;
-    width: 40px;
-    height: 40px;
-    background-color: red;
-}
-
-.project-link:hover+.preview {
-    display: block;
-}
-
-.project-description {
-    color: rgb(160, 160, 160);
-    width: 40%;
-}
-
-.colored {
+.heading {
     color: rgb(160, 160, 160);
     font-size: 14px;
-}
-
-#about .heading {
-    font-size: 14px;
-    color: rgb(160, 160, 160)
-}
-
-#about .title {
-    margin-top: 24px
-}
-
-#about {
-    margin: 64px 0;
-}
-
-/* #skills p {
-    margin: 24px 0;
-} */
-#skills .content {
-    margin-top: 24px;
-}
-
-#skills .header {
-    font-size: 14px;
-    color: rgb(160, 160, 160)
-}
-
-#marquee {
-    overflow: hidden;
-    margin: 64px 0;
-}
-
-#marquee-track {
-    display: flex;
-    width: max-content;
-    gap: 16px;
-    animation: scroll 40s linear infinite;
-}
-
-#marquee span {
-    color: rgb(160, 160, 160);
-}
-
-@keyframes scroll {
-    to {
-        transform: translateX(calc(-25% - 4px));
-    }
 }

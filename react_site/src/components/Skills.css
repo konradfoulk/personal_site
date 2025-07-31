@@ -1,0 +1,21 @@
+#marquee {
+    overflow: hidden;
+    margin: 64px 0;
+}
+
+#marquee-track {
+    display: flex;
+    width: max-content;
+    gap: 16px;
+    animation: scroll 40s linear infinite;
+}
+
+#marquee span {
+    color: rgb(160, 160, 160);
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(calc(-25% - 4px));
+    }
+}
