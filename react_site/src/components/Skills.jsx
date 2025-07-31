@@ -2,6 +2,10 @@ function Skills() {
 
     return (
         <div id="skills">
+            <p className="header"> Skills</p>
+            <p className="content">
+                I'm interested in
+            </p>
             <div id="marquee">
                 <div id="marquee-track">
                     <span>Python</span>

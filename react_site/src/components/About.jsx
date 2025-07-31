@@ -2,8 +2,8 @@ function About() {
 
     return (
         <div id="about">
-            <p className="heading">About</p>
-            <p className="title">About me</p>
+            {/* <p className="heading">About</p> */}
+            <p className="title">About</p>
             <br />
             <p>Some stuff about me blah blah blah. Life stories.</p>
             <p>Moving topics. I'm interested in such and such and I dream for else.</p>
