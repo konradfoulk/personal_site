@@ -14,7 +14,8 @@ html {
 
 body {
     background-color: rgb(26, 26, 26);
-    padding: 16px 24px 40px;
+    /* padding: 16px 24px 40px; */
+    padding-bottom: 40px;
 }
 
 a {
@@ -169,4 +170,25 @@ a {
 
 #about {
     margin: 64px 0;
+}
+
+#marquee {
+    overflow: hidden;
+}
+
+#marquee-track {
+    display: flex;
+    width: max-content;
+    gap: 16px;
+    animation: scroll 40s linear infinite;
+}
+
+#marquee span {
+    color: rgb(160, 160, 160);
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(calc(-25% - 4px));
+    }
 }

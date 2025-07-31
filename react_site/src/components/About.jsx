@@ -11,8 +11,7 @@ function About() {
             <p>River & Post sucks and I don't want to work there anymore.</p>
             <br />
             <p>I want to make a lot of money so I've decided to become an internet warrior.</p>
-            <p>Coding, content, websites, digital advertisments, spreadsheets, math, I gotchu.</p>
-            <br />
+            <p>Apps, automations, content, websites, digital advertisments, spreadsheets, math, I gotchu.</p>
         </div>
     );
 };

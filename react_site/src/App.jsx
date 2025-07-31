@@ -4,6 +4,7 @@ import Header from './components/Header.jsx'
 import Nav from './components/Nav.jsx'
 import Projects from './components/Projects.jsx'
 import About from './components/About.jsx'
+import Skills from './components/Skills.jsx'
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -24,6 +25,7 @@ function App() {
       <div id='content' className={visible ? 'visible' : ''}>
         <Projects />
         <About />
+        <Skills />
       </div>
     </>
   )

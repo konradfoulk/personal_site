@@ -21,7 +21,7 @@ function Projects() {
             <div className="project">
                 <a href="#" className="project-link">Portfolio Site</a>
                 <div className="preview"></div>
-                <p className="project-description">Let's see Paul Allen's card</p>
+                <p className="project-description">Simple, clear, effective, me. Inspired by Paco, Seyit, and Azuki</p>
             </div>
         </div>
     );
