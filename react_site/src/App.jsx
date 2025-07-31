@@ -5,6 +5,7 @@ import Nav from './components/Nav.jsx'
 import Projects from './components/Projects.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
+import './App.css'
 
 function App() {
   const [visible, setVisible] = useState(false);

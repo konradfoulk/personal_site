@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(229, 229, 229);
+    line-height: 1;
+    scrollbar-width: thin;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin: 64px 0;
+}
+
+.element {
+    margin: 24px 0;
+}
+
+.text-element {
+    margin: 28px 0;
+}
+
+.heading {
+    color: rgb(160, 160, 160);
+    font-size: 14px;
+}
+
+#content {
+    margin: 64vh auto 0;
+    max-width: 640px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#content.visible {
+    opacity: 1;
+}
+
+#content * {
+    line-height: 1.75;
+}

@@ -1,0 +1,17 @@
+#tag-btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: crimson;
+    margin: 16px 24px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.90;
+}
+
+#tag-btn:hover {
+    opacity: 1;
+}
