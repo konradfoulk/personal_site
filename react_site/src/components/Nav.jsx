@@ -9,6 +9,7 @@ function Nav({ className = '' }) {
 
     return (
         <div id="nav" className={className}>
+            <div id='indicator'></div>
             <button onClick={() => scrollToId('header')}>Konrad Foulk</button>
             <button onClick={() => scrollToId('projects')}>Projects</button>
             <button onClick={() => scrollToId('about')}>About</button>

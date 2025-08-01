@@ -37,3 +37,13 @@
 #nav button:hover {
     color: rgb(242, 242, 242);
 }
+
+#indicator {
+    position: absolute;
+    top: 5px;
+    left: -12px;
+    width: 3px;
+    height: 22px;
+    border-radius: 2px;
+    background-color: rgb(112, 112, 112);
+}
