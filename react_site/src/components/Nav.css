@@ -4,7 +4,7 @@
     left: 100%;
     transform: translate(-90%, -50%);
     opacity: 0;
-    transition: all 0.4s;
+    transition: all 0.4s ease;
     display: flex;
     flex-direction: column;
     padding-right: 24px;
@@ -47,4 +47,5 @@
     height: 22px;
     border-radius: 2px;
     background-color: rgb(112, 112, 112);
+    transition: transform 0.3s ease;
 }
