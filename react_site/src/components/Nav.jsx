@@ -5,7 +5,6 @@ function Nav({ className = '' }) {
     function scrollToId(id) {
         const el = document.getElementById(id)
         el.scrollIntoView({ block: 'center' })
-        el.scrollTo
     }
 
     return (
