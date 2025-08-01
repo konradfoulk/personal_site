@@ -46,6 +46,6 @@
     width: 3px;
     height: 22px;
     border-radius: 2px;
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(80, 80, 80);
     transition: transform 0.3s ease;
 }
