@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    overflow-wrap: break-word;
+}
+
 section {
     margin: 64px 0;
 }

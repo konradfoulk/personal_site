@@ -4,7 +4,7 @@ function About() {
         <section id="about">
             <p className="text-element">About</p>
             <div className="text-element">
-                <p>Some stuff about me blah blah blah. Life stories.</p>
+                <p>Some stuff about me blah blah blah. Life stories. aa aaaa aaaaaa aaaaaaaaaa aaaaaaaaaaa aaaaaaaaa aaaaaaaa aaaaa aaaa aaaa aaaaa aa aaaaa a aa aaaa aa aaaaa aaa aaaaaa aaaaa aa aaaaaaaaaaaaaaaaaaaaaaa</p>
                 <p>Moving topics. I'm interested in such and such and I dream for else.</p>
             </div>
             <div className="text-element">
