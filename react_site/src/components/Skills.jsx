@@ -8,7 +8,7 @@ function Skills() {
             <p className="text-element">
                 I'm interested in
             </p>
-            <div id="marquee">
+            <div id="marquee" className='fadeout-horizontal'>
                 <div id="marquee-track">
                     <span>Python</span>
                     <span>Javascript</span>

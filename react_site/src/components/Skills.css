@@ -19,3 +19,11 @@
         transform: translateX(calc(-25% - 4px));
     }
 }
+
+.fadeout-horizontal {
+    mask-image: linear-gradient(to right,
+            transparent,
+            rgb(26, 26, 26) 16px,
+            rgb(26, 26, 26) calc(100% - 16px),
+            transparent);
+}

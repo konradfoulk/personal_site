@@ -30,7 +30,8 @@
     top: 50%;
     left: 80%;
     opacity: 0;
-    transition: opacity 0.4s ease-in, opacity 0.2s ease-out, visibility 0s linear 0.2s;
+    transition: opacity 0.3s ease, visibility 0s linear 0.4s;
+    z-index: 0;
 }
 
 .preview video {
@@ -43,4 +44,5 @@
     visibility: visible;
     opacity: 1;
     transition-delay: 0s, 0s;
+    z-index: 10;
 }
