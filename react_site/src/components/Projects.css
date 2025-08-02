@@ -12,6 +12,7 @@
     text-decoration-thickness: 1px;
     text-underline-offset: 2.5px;
     text-decoration-skip-ink: none;
+    transition: text-decoration-color 0.2s ease;
 }
 
 .link:hover {
@@ -23,11 +24,13 @@
 }
 
 .preview {
-    display: none;
+    visibility: hidden;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 80%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in, opacity 0.2s ease-out, visibility 0s linear 0.2s;
 }
 
 .preview video {
@@ -37,5 +40,7 @@
 }
 
 .wrapper:hover+.preview {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s, 0s;
 }

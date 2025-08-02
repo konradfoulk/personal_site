@@ -8,6 +8,7 @@
 #header a {
     margin-right: 8px;
     color: rgb(112, 112, 112);
+    transition: color 0.2s ease;
 }
 
 #header a:hover {

@@ -19,6 +19,7 @@
     text-align: left;
     padding: 8px 0;
     cursor: pointer;
+    transition: color 0.2s ease;
 }
 
 #nav.visible {
