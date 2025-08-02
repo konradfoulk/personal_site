@@ -1,10 +1,10 @@
 import './TagBtn.css'
-import resume from '../assets/Konrad_Foulk_Work_Resume_(Updated 08-23).pdf'
 
 function TagBtn() {
 
     return (
-        <a id="tag-btn" href={resume} download='CV_Konrad_Foulk.pdf'>RESUME</a>
+        <a id="tag-btn" href='https://drive.google.com/file/d/1qMSaLQqsIa5KcJUzTQ-X89zf8TfGkpLX/view?usp=sharing' target="_blank"
+            rel="noopener noreferrer">RESUME</a>
     )
 };
 
