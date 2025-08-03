@@ -4,11 +4,10 @@ function About() {
         <section id="about">
             <p className="text-element">About</p>
             <div className="text-element">
-                <p>Some stuff about me blah blah blah. Life stories. aa aaaa aaaaaa aaaaaaaaaa aaaaaaaaaaa aaaaaaaaa aaaaaaaa aaaaa aaaa aaaa aaaaa aa aaaaa a aa aaaa aa aaaaa aaa aaaaaa aaaaa aa aaaaaaaaaaaaaaaaaaaaaaa</p>
-                <p>Moving topics. I'm interested in such and such and I dream for else.</p>
+                <p>I try new things, get skills, meet people, in order to unlock new experiences.</p>
             </div>
             <div className="text-element">
-                <p>River & Post sucks and I don't want to work there anymore.</p>
+                <p>I am an aspiring software engineer, focusing on general application solutions. I am interested in general purpose automations such as web developement, API use, and task automation combining each of these with core CS concepts.</p>
             </div>
             <div className="text-element">
                 <p>I want to make a lot of money so I've decided to become an internet warrior.</p>
