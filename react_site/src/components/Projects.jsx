@@ -2,6 +2,7 @@ import './Projects.css'
 import notesAppVideo from '../assets/notes_app.mp4'
 import jobFinderVideo from '../assets/job_finder.mp4'
 import taxCalculatorVideo from '../assets/tax_calculator.mp4'
+import websiteVideo from '../assets/personal_site.mp4'
 
 function Projects() {
 
@@ -44,7 +45,9 @@ function Projects() {
                         rel="noopener noreferrer">Portfolio Site</a>
                     <p className="description">Simple, clear, effective, me. Inspired by Paco, Seyit, and Azuki</p>
                 </div>
-                <div className="preview"></div>
+                <div className="preview">
+                    <video src={websiteVideo} autoPlay muted loop></video>
+                </div>
             </div>
         </section>
     );
