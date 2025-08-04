@@ -5,10 +5,8 @@ function Skills() {
     return (
         <section id="skills">
             <p className="heading"> Skills</p>
-            <p className="text-element">
-                I have experience in many technologies surrounding web developement, API use, and task automation. In the future I hope to learn Rust and expand my general purpose and prototyping skills into high-performance applications.
-            </p>
-            <p className='text-element'>Below I've listed all the technologies I have experience in, both through study and courses, and through hands on projects, learning from experience.</p>
+            <p className='text-element'>I have experience in many technologies surrounding prototyping and web development. In the future I plan to learn Rust to expand my general purpose skills into optimized, high-performance applications at scale.</p>
+            <p className='text-element'>My expertise has been accumulated through hundreds of hours of study, practice, and repetition in addition to hands on projects. Below are the core technologies I've worked with to create my ideas.</p>
             <div id="marquee" className='fadeout-horizontal'>
                 <div id="marquee-track">
                     <span>Python</span>
