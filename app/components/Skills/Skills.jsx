@@ -1,7 +1,6 @@
 import './Skills.css'
 
-function Skills() {
-
+export default function Skills() {
     return (
         <section id="skills">
             <p className="heading"> Skills</p>
@@ -45,6 +44,4 @@ function Skills() {
             </div>
         </section>
     );
-};
-
-export default Skills
+}

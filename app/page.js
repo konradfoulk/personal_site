@@ -1,14 +1,15 @@
+'use client'
+import "./page.css";
+import TagBtn from "./components/TagBtn/TagBtn";
+import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
+import Projects from "./components/Projects/Projects";
+import About from "./components/About";
+import Skills from "./components/Skills/Skills";
+import Footer from "./components/Footer/Footer";
 import { useEffect, useState } from 'react'
-import TagBtn from './components/TagBtn.jsx'
-import Header from './components/Header.jsx'
-import Nav from './components/Nav.jsx'
-import Projects from './components/Projects.jsx'
-import About from './components/About.jsx'
-import Skills from './components/Skills.jsx'
-import Footer from './components/Footer.jsx'
-import './App.css'
 
-function App() {
+export default function Home() {
   const [visible, setVisible] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -54,7 +55,5 @@ function App() {
       </div>
       <Footer />
     </>
-  )
+  );
 }
-
-export default App

@@ -1,6 +1,6 @@
 import './Header.css'
 
-function Header() {
+export default function Header() {
     return (
         <div id="header">
             <h1>Konrad Foulk, Jacksonville FL</h1>
@@ -9,7 +9,5 @@ function Header() {
                     rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/konradfoulk" target="_blank"
                         rel="noopener noreferrer">GitHub</a>
         </div>
-    );
-};
-
-export default Header
+    )
+}

@@ -1,7 +1,7 @@
+'use client'
 import './Nav.css'
 
-function Nav({ className = '', activeIndex = 0 }) {
-
+export default function Nav({ className = '', activeIndex = 0 }) {
     function scrollToId(id) {
         const el = document.getElementById(id)
         el.scrollIntoView({ block: 'center' })
@@ -22,5 +22,3 @@ function Nav({ className = '', activeIndex = 0 }) {
         </div>
     );
 }
-
-export default Nav

@@ -1,5 +1,4 @@
-function About() {
-
+export default function About() {
     return (
         <section id="about">
             <p className="text-element">Aspiring Software Engineer</p>
@@ -8,6 +7,4 @@ function About() {
             <p className="text-element">I am happiest when I am increasing my ability to do things. My dream is an occupation that keeps me learning new skills around my passions, and connects me with like-minded people.</p>
         </section>
     );
-};
-
-export default About
+}

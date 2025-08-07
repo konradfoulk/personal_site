@@ -1,7 +1,6 @@
 import './Footer.css'
 
-function Footer() {
-
+export default function Footer() {
     return (
         <footer>
             <div>
@@ -9,7 +8,5 @@ function Footer() {
                 <p>2025</p>
             </div>
         </footer>
-    );
+    )
 }
-
-export default Footer
