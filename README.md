@@ -1,3 +1,3 @@
 Personal Site
 
-https://konradfoulk.com
+https://www.konradfoulk.com
