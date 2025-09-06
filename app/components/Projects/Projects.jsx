@@ -26,7 +26,7 @@ export default function Projects() {
             </div>
             <div className="project element">
                 <div className="wrapper">
-                    <a href="https://github.com/konradfoulk/tax_calculator" className="link" target="_blank"
+                    <a href="https://taxcalc.konradfoulk.com/" className="link" target="_blank"
                         rel="noopener noreferrer">Tax Calculator</a>
                     <p className="description">Find the income required to take home an inputted desired income after tax</p>
                 </div>
