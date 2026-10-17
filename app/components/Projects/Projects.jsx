@@ -6,6 +6,16 @@ export default function Projects() {
             <p className="heading">Projects</p>
             <div className="project element">
                 <div className="wrapper">
+                    <a href="https://live-board.onrender.com" className="link" target="_blank"
+                        rel="noopener noreferrer">Live Chat</a>
+                <p className="description">Real-time websocket chat MVP of Twitch with precense system similar to Discord</p>
+                </div>
+                <div className="preview">
+                    <video src="/live_chat.mp4" autoPlay muted loop></video>
+                </div>
+            </div>
+            <div className="project element">
+                <div className="wrapper">
                     <a href="https://konradfoulk.pythonanywhere.com/" className="link" target="_blank"
                         rel="noopener noreferrer">Notes App</a>
                     <p className="description">Rich text editor clone of iCloud Notes and Notion</p>

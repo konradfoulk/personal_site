@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <div>
                 <p>Let's see Paul Allen's card.</p>
-                <p>2025</p>
+                <p>2026</p>
             </div>
         </footer>
     )
