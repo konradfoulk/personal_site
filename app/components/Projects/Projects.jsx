@@ -8,7 +8,7 @@ export default function Projects() {
                 <div className="wrapper">
                     <a href="https://live-board.onrender.com" className="link" target="_blank"
                         rel="noopener noreferrer">Live Chat</a>
-                <p className="description">Real-time websocket chat MVP of Twitch with precense system similar to Discord</p>
+                <p className="description">Real-time websocket chat MVP of Twitch with basic presence system similar to Discord</p>
                 </div>
                 <div className="preview">
                     <video src="/live_chat.mp4" autoPlay muted loop></video>
